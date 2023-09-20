@@ -1,6 +1,10 @@
 import requests
 import time
+import os
+from dotenv import load_dotenv
 
+# Carrega as variáveis de ambiente
+load_dotenv()
 def fetch_data():
     response = requests.get("https://blaze.com/api/roulette_games/recent")
     if response.status_code == 200:
@@ -10,8 +14,8 @@ def fetch_data():
         return None
 
 def send_telegram_message(message):
-    token = "xpto"
-    chat_id = "xpto"
+    token = os.getenv('TELEGRAM_TOKEN')
+    chat_id = os.getenv('TELEGRAM_CHAT_ID')
     url = f"https://api.telegram.org/bot{token}/sendMessage"
 
     payload = {
