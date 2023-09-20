@@ -10,8 +10,8 @@ def fetch_data():
         return None
 
 def send_telegram_message(message):
-    token = "6117230868:AAFMYEJZIKAlocyZjW2Q8OiOndmBYSulOLo"
-    chat_id = "-4010498931"
+    token = "xpto"
+    chat_id = "xpto"
     url = f"https://api.telegram.org/bot{token}/sendMessage"
 
     payload = {
