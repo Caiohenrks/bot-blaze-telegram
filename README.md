@@ -98,3 +98,5 @@ Embora a estratégia de Martingale pareça atraente devido à sua simplicidade e
 
 
 (![BLAZE](<img.jpg>))
+
+![TELEGRAM](img2-1.jpg)
