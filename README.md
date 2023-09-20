@@ -96,7 +96,4 @@ Embora a estratégia de Martingale pareça atraente devido à sua simplicidade e
 3. Se a aposta no "preto" perder, o bot dobra a aposta no "preto" e continua até ganhar.
 4. Uma vez que uma vitória é alcançada, a estratégia e a contagem são reiniciadas.
 
-
-(![BLAZE](<img.jpg>))
-
-![TELEGRAM](img2-1.jpg)
+<img src="img.jpg" width="700"><img src="img2.jpg" width="300">
