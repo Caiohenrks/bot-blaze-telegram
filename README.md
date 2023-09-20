@@ -43,7 +43,7 @@ Este script shell automatiza o processo de instalação e configuração. Ele ta
 
 ## Arquivo bot.py
 
-# O arquivo bot.py é um bot Python projetado para interagir com um jogo de roleta online. Ele faz o seguinte:
+### O arquivo bot.py é um bot Python projetado para interagir com um jogo de roleta online. Ele faz o seguinte:
 
 1. Busca dados do jogo de roleta: Utiliza a função fetch_data() para fazer uma chamada de API para "https://blaze.com/api/roulette_games/recent" e obter dados recentes do jogo.
 
@@ -51,9 +51,8 @@ Este script shell automatiza o processo de instalação e configuração. Ele ta
 
 3. Análise de cores da roleta: A função check_colors() analisa a sequência de cores resultantes do jogo de roleta e executa lógicas específicas com base nessa sequência.
 
-### Estratégia
 
-# Funcionamento da Estratégia
+### Funcionamento da Estratégia
 
 - Início: Comece com uma aposta inicial mínima. Por exemplo, em uma mesa de roleta, você pode começar apostando $1 no vermelho ou preto.
 
@@ -98,4 +97,4 @@ Embora a estratégia de Martingale pareça atraente devido à sua simplicidade e
 4. Uma vez que uma vitória é alcançada, a estratégia e a contagem são reiniciadas.
 
 
-(![BLAZE](<Imagem do WhatsApp de 2023-09-18 à(s) 20.30.09.jpg>))
+(![BLAZE](<img.jpg>))
